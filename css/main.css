@@ -24,5 +24,23 @@ body {
 
 .icon {
   font-size: 4rem;
+  text-align: center;
+  order: -1;
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 
+.emoji {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.emojis {
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
